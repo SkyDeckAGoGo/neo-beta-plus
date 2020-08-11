@@ -6,18 +6,18 @@
           "config": {
             "features": [
               {
-                "feature": "minecraft:birch",
+                "feature": "minecraft:birch_bees_002",
                 "chance": 0.2
               },
               {
-                "feature": "minecraft:fancy_oak",
+                "feature": "minecraft:fancy_oak_bees_002",
                 "chance": 0.1
               }
             ],
-            "default": "minecraft:oak"
+            "default": "minecraft:oak_bees_002"
           },
           "type": "minecraft:random_selector",
-          "name": "minecraft:trees_forest"
+          "name": "minecraft:random_selector"
         },
         "decorator": {
           "config": {
@@ -41,7 +41,7 @@
     },
     "decorator": {
       "config": {
-        "count": 10,
+        "count": 8,
         "extra_chance": 0.1,
         "extra_count": 1
       },

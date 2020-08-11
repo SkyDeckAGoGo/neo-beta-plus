@@ -35,6 +35,18 @@
         "weight": 8,
         "minCount": 4,
         "maxCount": 4
+      },
+      {
+        "type": "minecraft:horse",
+        "weight": 5,
+        "minCount": 2,
+        "maxCount": 6
+      },
+      {
+        "type": "minecraft:donkey",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 3
       }
     ],
     "monster": [
@@ -49,6 +61,12 @@
         "weight": 95,
         "minCount": 4,
         "maxCount": 4
+      },
+      {
+        "type": "minecraft:zombie_villager",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
       },
       {
         "type": "minecraft:skeleton",
@@ -67,6 +85,18 @@
         "weight": 100,
         "minCount": 4,
         "maxCount": 4
+      },
+      {
+        "type": "minecraft:enderman",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:witch",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
       }
     ]
   },
@@ -85,6 +115,9 @@
     [
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
+      "minecraft:ore_granite",
+      "minecraft:ore_diorite",
+      "minecraft:ore_andesite",
       "minecraft:ore_coal",
       "minecraft:ore_iron",
       "minecraft:ore_gold",
@@ -98,13 +131,14 @@
     [      
       "minecraft:flower_warm",
       "minecraft:patch_grass_plain",
+      "minecraft:patch_sunflower",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin",
       "minecraft:spring_water",
       "minecraft:spring_lava",
-      "minecraft:trees_water"
+      "minecraft:trees_plains"
     ],
     [
       "minecraft:freeze_top_layer"

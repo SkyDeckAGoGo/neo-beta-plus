@@ -7,7 +7,22 @@
     "water_ambient": [],
     "ambient": [],
     "misc": [],
-    "water_creature": [],
+    "water_creature": [
+      {
+        "type": "minecraft:squid",
+        "weight": 2,
+        "minCount": 1,
+        "maxCount": 4
+      }
+    ],
+    "water_ambient": [
+      {
+        "type": "minecraft:salmon",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 5
+      }
+    ],
     "creature": [
       {
         "type": "minecraft:sheep",
@@ -96,6 +111,9 @@
     [
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
+      "minecraft:ore_granite",
+      "minecraft:ore_diorite",
+      "minecraft:ore_andesite",
       "minecraft:ore_coal",
       "minecraft:ore_iron",
       "minecraft:ore_gold",

@@ -12,7 +12,14 @@
     "ambient": [],
     "misc": [],
     "water_creature": [],
-    "creature": [],
+    "creature": [      
+      {
+        "type": "minecraft:rabbit",
+        "weight": 4,
+        "minCount": 2,
+        "maxCount": 3
+      }
+    ],
     "monster": [
       {
         "type": "minecraft:spider",
@@ -25,6 +32,12 @@
         "weight": 19,
         "minCount": 4,
         "maxCount": 4
+      },
+      {
+        "type": "minecraft:zombie_villager",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
       },
       {
         "type": "minecraft:skeleton",
@@ -41,6 +54,24 @@
       {
         "type": "minecraft:slime",
         "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:enderman",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:witch",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:husk",
+        "weight": 80,
         "minCount": 4,
         "maxCount": 4
       }
@@ -68,6 +99,9 @@
     [
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
+      "minecraft:ore_granite",
+      "minecraft:ore_diorite",
+      "minecraft:ore_andesite",
       "minecraft:ore_coal",
       "minecraft:ore_iron",
       "minecraft:ore_gold",

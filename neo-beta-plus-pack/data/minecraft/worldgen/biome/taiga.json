@@ -42,6 +42,18 @@
         "weight": 8,
         "minCount": 4,
         "maxCount": 4
+      },
+      {
+        "type": "minecraft:rabbit",
+        "weight": 4,
+        "minCount": 2,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:fox",
+        "weight": 8,
+        "minCount": 2,
+        "maxCount": 4
       }
     ],
     "monster": [
@@ -56,6 +68,12 @@
         "weight": 95,
         "minCount": 4,
         "maxCount": 4
+      },
+      {
+        "type": "minecraft:zombie_villager",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
       },
       {
         "type": "minecraft:skeleton",
@@ -74,6 +92,18 @@
         "weight": 100,
         "minCount": 4,
         "maxCount": 4
+      },
+      {
+        "type": "minecraft:enderman",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:witch",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
       }
     ]
   },
@@ -100,9 +130,12 @@
     [
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
+      "minecraft:ore_granite",
+      "minecraft:ore_diorite",
+      "minecraft:ore_andesite",
       "minecraft:ore_coal",
       "minecraft:ore_iron",
-      "minecraft:ore_gold",
+      "minecraft:ore_gold_extra",
       "minecraft:ore_redstone",
       "minecraft:ore_diamond",
       "minecraft:ore_lapis",

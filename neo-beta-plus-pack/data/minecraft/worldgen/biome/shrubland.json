@@ -33,10 +33,16 @@
         "weight": 8,
         "minCount": 4,
         "maxCount": 4
+      },
+      {
+        "type": "minecraft:llama",
+        "weight": 5,
+        "minCount": 4,
+        "maxCount": 6
       }
     ],
     "monster": [
-      {
+     {
         "type": "minecraft:spider",
         "weight": 100,
         "minCount": 4,
@@ -47,6 +53,12 @@
         "weight": 95,
         "minCount": 4,
         "maxCount": 4
+      },
+      {
+        "type": "minecraft:zombie_villager",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
       },
       {
         "type": "minecraft:skeleton",
@@ -65,6 +77,18 @@
         "weight": 100,
         "minCount": 4,
         "maxCount": 4
+      },
+      {
+        "type": "minecraft:enderman",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:witch",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
       }
     ]
   },
@@ -91,6 +115,9 @@
     [
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
+      "minecraft:ore_granite",
+      "minecraft:ore_diorite",
+      "minecraft:ore_andesite",
       "minecraft:ore_coal",
       "minecraft:ore_iron",
       "minecraft:ore_gold",
@@ -109,7 +136,7 @@
       "minecraft:patch_pumpkin",
       "minecraft:spring_water",
       "minecraft:spring_lava",
-      "minecraft:trees_water"
+      "minecraft:trees_plains"
     ],
     [
       "minecraft:freeze_top_layer"

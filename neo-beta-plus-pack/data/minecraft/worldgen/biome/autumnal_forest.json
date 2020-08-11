@@ -1,28 +1,15 @@
 {
   "starts": [
-    "minecraft:mineshaft",
-    "minecraft:stronghold"
+    "minecraft:mineshaft",    
+    "minecraft:swamp_hut",
+    "minecraft:stronghold",
+    "minecraft:ruined_portal"
   ],
   "spawners": {
     "water_ambient": [],
     "ambient": [],
     "misc": [],
-    "water_creature": [
-      {
-        "type": "minecraft:squid",
-        "weight": 2,
-        "minCount": 1,
-        "maxCount": 4
-      }
-    ],
-    "water_ambient": [
-      {
-        "type": "minecraft:salmon",
-        "weight": 5,
-        "minCount": 1,
-        "maxCount": 5
-      }
-    ],
+    "water_creature": [],
     "creature": [
       {
         "type": "minecraft:sheep",
@@ -111,9 +98,6 @@
     [
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
-      "minecraft:ore_granite",
-      "minecraft:ore_diorite",
-      "minecraft:ore_andesite",
       "minecraft:ore_coal",
       "minecraft:ore_iron",
       "minecraft:ore_gold",
@@ -125,24 +109,25 @@
     ],
     [],
     [
-      "minecraft:trees_forest",
-      "minecraft:flower_default",
+      "minecraft:trees_autumnal",
+      "minecraft:huge_brown_mushroom",
+      "minecraft:huge_red_mushroom",
       "minecraft:patch_grass_forest",
+      "minecraft:flower_warm",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin",
       "minecraft:spring_water",
-      "minecraft:spring_lava",
-      "minecraft:seagrass_river"
+      "minecraft:spring_lava"
     ],
     [
       "minecraft:freeze_top_layer"
     ]
   ],
-  "scale": 0.0,
-  "temperature": 1.65,
-  "downfall": 0.89,
+  "scale": 0.4,
+  "temperature": 0.8,
+  "downfall": 0.08,
   "effects": {
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
@@ -157,5 +142,5 @@
   },
   "precipitation": "rain",
   "category": "forest",
-  "depth": -0.5
+  "depth": 0.1
 }
