@@ -1,4 +1,4 @@
-# Neo-Beta-Plus datapack for Minecraft 1.16.2 pre release 1.
+# Neo-Beta-Plus datapack for Minecraft 1.16.2.
 
 A branch of the Neo-Beta datapack that adds a modern touch onto beta terrain.
 
