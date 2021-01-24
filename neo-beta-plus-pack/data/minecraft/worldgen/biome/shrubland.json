@@ -8,7 +8,14 @@
     "water_ambient": [],
     "ambient": [],
     "misc": [],
-    "water_creature": [],
+    "water_creature": [ 
+      {
+        "type": "minecraft:squid",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ],
     "creature": [
       {
         "type": "minecraft:sheep",
@@ -136,7 +143,8 @@
       "minecraft:patch_pumpkin",
       "minecraft:spring_water",
       "minecraft:spring_lava",
-      "minecraft:trees_plains"
+      "minecraft:trees_plains",
+      "minecraft:gravel_cleanup"
     ],
     [
       "minecraft:freeze_top_layer"

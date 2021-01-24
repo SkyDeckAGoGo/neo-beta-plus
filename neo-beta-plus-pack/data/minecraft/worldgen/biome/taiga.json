@@ -1,4 +1,3 @@
-
 {
   "starts": [
     "minecraft:village_taiga",
@@ -8,10 +7,30 @@
     "minecraft:ruined_portal"
   ],
   "spawners": {
-    "water_ambient": [],
+    "water_ambient": [
+      {
+        "type": "minecraft:cod",
+        "weight": 15,
+        "minCount": 3,
+        "maxCount": 6
+      },
+      {
+        "type": "minecraft:salmon",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 5
+      }
+    ],
     "ambient": [],
     "misc": [],
-    "water_creature": [],
+    "water_creature": [
+      {
+        "type": "minecraft:squid",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ],
     "creature": [
       {
         "type": "minecraft:sheep",
@@ -135,7 +154,6 @@
       "minecraft:ore_andesite",
       "minecraft:ore_coal",
       "minecraft:ore_iron",
-      "minecraft:ore_gold_extra",
       "minecraft:ore_redstone",
       "minecraft:ore_diamond",
       "minecraft:ore_lapis",
@@ -154,15 +172,18 @@
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin",
       "minecraft:spring_water",
-      "minecraft:spring_lava"
+      "minecraft:spring_lava",
+      "minecraft:forest_rock",
+      "minecraft:patch_berry_sparse",
+      "minecraft:gravel_cleanup"
     ],
     [
       "minecraft:freeze_top_layer"
     ]
   ],
   "scale": 0.4,
-  "temperature": -0.3,
-  "downfall": 0.3,
+  "temperature": 0.3,
+  "downfall": 0.6,
   "effects": {
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
@@ -175,7 +196,7 @@
     "water_fog_color": 4157951,
     "sky_color": 7454975
   },
-  "precipitation": "snow",
+  "precipitation": "rain",
   "category": "taiga",
   "depth": 0.1
 }

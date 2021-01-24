@@ -31,12 +31,12 @@
         "salt": 30084232
       },
       "minecraft:ruined_portal": {
-        "spacing": 40,
+        "spacing": 64,
         "separation": 15,
         "salt": 34222645
       },
       "minecraft:village": {
-        "spacing": 32,
+        "spacing": 42,
         "separation": 8,
         "salt": 10387312
       },
@@ -66,7 +66,7 @@
         "salt": 30084232
       },
       "minecraft:shipwreck": {
-        "spacing": 24,
+        "spacing": 64,
         "separation": 4,
         "salt": 165745295
       },
@@ -91,7 +91,7 @@
         "salt": 10387319
       },
       "minecraft:swamp_hut": {
-        "spacing": 32,
+        "spacing": 40,
         "separation": 8,
         "salt": 14357620
       },
@@ -118,7 +118,7 @@
     "sampling": {
       "xz_scale": 0.9999999814507745,
       "y_scale": 0.9999999814507745,
-      "xz_factor": 80.0,
+      "xz_factor": 100.0,
       "y_factor": 160.0
     },
     "top_slide": {

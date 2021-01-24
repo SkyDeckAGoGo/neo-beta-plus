@@ -132,7 +132,8 @@
       "minecraft:patch_pumpkin",
       "minecraft:spring_water",
       "minecraft:spring_lava",
-      "minecraft:trees_water"
+      "minecraft:trees_water",
+      "minecraft:gravel_cleanup"
     ],
     [
       "minecraft:freeze_top_layer"
@@ -153,7 +154,7 @@
     "water_fog_color": 4157951,
     "sky_color": 8171263
   },
-  "precipitation": "rain",
+  "precipitation": "snow",
   "category": "forest",
-  "depth": -0.5
+  "depth": -0.3
 }

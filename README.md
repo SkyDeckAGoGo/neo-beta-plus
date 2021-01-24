@@ -1,16 +1,39 @@
-# Neo-Beta-Plus datapack for Minecraft 1.16.2.
+# Neo-Beta-Plus datapack for Minecraft 1.16.5
 
-A branch of the Neo-Beta datapack that adds a modern touch onto beta terrain.
+Neo-Beta Plus is a datapack designed to bring back beta 1.7.3 style terrain into modern Minecraft, with a few new touches added to make modern structures, blocks, items and mobs available and give the old terrain a fresh look.
+
+For more accurate beta 1.7.3 terrain, check out the original Neo-Beta datapack (https://github.com/SkyDeckAGoGo/neo-beta-datapack)
 
 This page is for updates and bug reports. 
 
 For more info on this pack, check out the Planet Minecraft page (https://www.planetminecraft.com/data-pack/neo-beta-datapack-beta-1-7-3-esque-terrain-generation-for-your-1-16-2-worlds/)
 
 # Updates
+V1.2 - 24/01/2021
++ Forked project into a new repo. This will make it easier to distinguish between Neo-Beta and Neo-Beta Plus
++ Made some changes to biome distribution and noise variables. Old worlds will have chunk borders when loading new terrain.
++ Added regular taiga biome from beta 1.8 and above. Snowy taiga has been renamed accordingly.
+	+ Taigas generate berry bushes and new mossy stone boulders
++ Removed rivers. They looked quite ugly in my opinion and didn't generate the way I wanted. May return if I can get them to look right
++ Removed gravel beaches. Again, not a fan of how they turned out and I can't seem to make them look like they did in the older versions. Once again, may return if I can figure out how to make them look better.
++ Added various types of fish to all forest biomes
+	+ fish are rare for some reason though, not sure how to increase their spawn rate enough
++ Added termite hills to Savannahs
+	+ A way to get coarse dirt
+	+ Experimental, may remove if people think they look ugly
++ Changed lilly pad generation to make swamps less ugly
++ Made sunflowers rarer in plains biomes
++ Made trees rarer in plains and shrubland biomes
++ Changed 'fancy oak' generation to give trees larger, bushier leaves like in beta 1.7.3
++ Changed 
++ Fixed issue where grass was spawning in the nether
++ Probably some other minor changes I forgot too. Sorry for the update-drought, been busy with university stuff. Hope you enjoy! :)
+	
+
 V1.1 - 11/08/2020
-- pack updated to 1.16.2!
++ pack updated to 1.16.2!
 + added the autumnal forest biome
-	- includes dark oak trees, witch huts and giant mushrooms
+	+ includes dark oak trees, witch huts and giant mushrooms
 + added a variety of modern blocks, ores and trees
 	+ granite, andersite and diorite spawn in all biomes
 	+ endermen, witches and zombie villagers now spawn in all biomes
@@ -26,9 +49,9 @@ V1.1 - 11/08/2020
 	+ (plus a lot of other features i may have missed)
 
 V1.0 - 31/07/2020
-- branched the project out from the master
-- added experimental river biomes that run through the middle of biomes
-	- two varients, cold rivers and regular rivers
-- added modern structures to biomes such as villages, ruined portals, strongholds, mineshafts etc..
-- removed lower biomes but changed the height distribution of regular biomes.
++ branched the project out from the master
++ added experimental river biomes that run through the middle of biomes
+	+ two varients, cold rivers and regular rivers
++ added modern structures to biomes such as villages, ruined portals, strongholds, mineshafts etc..
++ removed lower biomes but changed the height distribution of regular biomes.
 

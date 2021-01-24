@@ -134,7 +134,8 @@
       "minecraft:patch_pumpkin",
       "minecraft:spring_water",
       "minecraft:spring_lava",
-      "minecraft:seagrass_river"
+      "minecraft:seagrass_river",
+      "minecraft:gravel_cleanup"
     ],
     [
       "minecraft:freeze_top_layer"
@@ -157,5 +158,5 @@
   },
   "precipitation": "rain",
   "category": "forest",
-  "depth": -0.5
+  "depth": -0.3
 }
