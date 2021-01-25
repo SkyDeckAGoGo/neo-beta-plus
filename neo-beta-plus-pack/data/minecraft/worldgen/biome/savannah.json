@@ -135,7 +135,6 @@
       "minecraft:ore_andesite",
       "minecraft:ore_coal",
       "minecraft:ore_iron",
-      "minecraft:ore_gold_extra",
       "minecraft:ore_redstone",
       "minecraft:ore_diamond",
       "minecraft:ore_lapis",
@@ -153,7 +152,7 @@
       "minecraft:spring_lava",
       "minecraft:trees_savannah",
       "minecraft:gravel_cleanup",
-      "minecraft:disk_coarse_dirt",
+      "minecraft:coarse_dirt",
       "minecraft:termite_mounds"
     ],
     [

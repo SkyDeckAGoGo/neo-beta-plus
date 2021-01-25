@@ -162,6 +162,7 @@
     ],
     [],
     [
+      "minecraft:gravel_cleanup",
       "minecraft:taiga_vegetation",
       "minecraft:flower_warm",
       "minecraft:patch_grass_taiga_2",
@@ -174,8 +175,7 @@
       "minecraft:spring_water",
       "minecraft:spring_lava",
       "minecraft:forest_rock",
-      "minecraft:patch_berry_sparse",
-      "minecraft:gravel_cleanup"
+      "minecraft:patch_berry_sparse"
     ],
     [
       "minecraft:freeze_top_layer"

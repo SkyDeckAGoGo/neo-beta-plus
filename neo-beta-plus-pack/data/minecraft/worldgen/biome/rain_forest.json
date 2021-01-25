@@ -132,7 +132,7 @@
     ]
   },
   "spawn_costs": {},
-  "surface_builder": "minecraft:grass",
+  "surface_builder": "minecraft:rain_forest",
   "carvers": {
     "air": [
       "minecraft:cave",
@@ -178,10 +178,12 @@
       "minecraft:spring_water",
       "minecraft:spring_lava",
       "minecraft:patch_waterlilly",
-      "minecraft:seagrass",
+      "minecraft:seagrass_rain_forest",
       "minecraft:kelp",
-      "minecraft:bamboo_light",
-      "minecraft:gravel_cleanup"
+      "minecraft:bamboo",
+      "minecraft:gravel_cleanup",
+      "minecraft:coral",
+      "minecraft:sea_pickle"
     ],
     [
       "minecraft:freeze_top_layer"

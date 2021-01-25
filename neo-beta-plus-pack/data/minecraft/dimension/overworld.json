@@ -86,7 +86,7 @@
             {
               "biome": "minecraft:rain_forest",
               "parameters": {
-                "altitude": 0.1,
+                "altitude": 0.2,
                 "weirdness": 0,
                 "offset": 0,
                 "temperature": 0.5,
@@ -117,7 +117,7 @@
               "biome": "minecraft:taiga",
               "parameters": {
                 "altitude": 0.1,
-                "weirdness": 0,
+                "weirdness": 0.3,
                 "offset": 0,
                 "temperature": -0.3,
                 "humidity": -0.4 
@@ -126,20 +126,20 @@
             {
               "biome": "minecraft:snowy_taiga",
               "parameters": {
-                "altitude": 0.1,
+                "altitude": 0.2,
                 "weirdness": 0,
                 "offset": 0,
-                "temperature": -0.4,
+                "temperature": -0.5,
                 "humidity": -0.45 
               }
             },
             {
               "biome": "minecraft:tundra",
               "parameters": {
-                "altitude": 0.1,
+                "altitude": 0.3,
                 "weirdness": 0,
                 "offset": 0,
-                "temperature": -0.45,
+                "temperature": -0.7,
                 "humidity": -0.5 
               }
             },
@@ -156,7 +156,7 @@
             {
               "biome": "minecraft:desert",
               "parameters": {
-                "altitude": 0.1,
+                "altitude": 0.2,
                 "weirdness": 0,
                 "offset": 0,
                 "temperature": 0.4,

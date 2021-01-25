@@ -7,7 +7,7 @@
             "features": [
               {
                 "feature": "minecraft:birch",
-                "chance": 0.1
+                "chance": 0.2
               },
               {
                 "feature": "minecraft:dark_fancy_oak",

@@ -133,8 +133,7 @@
       "minecraft:patch_pumpkin",
       "minecraft:spring_water",
       "minecraft:spring_lava",
-      "minecraft:trees_plains",
-      "minecraft:gravel_cleanup"
+      "minecraft:trees_plains"
     ],
     [
       "minecraft:freeze_top_layer"

@@ -9,6 +9,12 @@ This page is for updates and bug reports.
 For more info on this pack, check out the Planet Minecraft page (https://www.planetminecraft.com/data-pack/neo-beta-datapack-beta-1-7-3-esque-terrain-generation-for-your-1-16-2-worlds/)
 
 # Updates
+V1.2.1 - 25/01/2021
++ Hopefully fixed an issue where big tree leaves were decaying
++ Fixed snowy taigas and tundras not spawning features
++ Added coral and sea pickles to rain forests
++ Changed bamboo spawning frequency
+
 V1.2 - 24/01/2021
 + Forked project into a new repo. This will make it easier to distinguish between Neo-Beta and Neo-Beta Plus
 + Made some changes to biome distribution and noise variables. Old worlds will have chunk borders when loading new terrain.
@@ -25,7 +31,6 @@ V1.2 - 24/01/2021
 + Made sunflowers rarer in plains biomes
 + Made trees rarer in plains and shrubland biomes
 + Changed 'fancy oak' generation to give trees larger, bushier leaves like in beta 1.7.3
-+ Changed 
 + Fixed issue where grass was spawning in the nether
 + Probably some other minor changes I forgot too. Sorry for the update-drought, been busy with university stuff. Hope you enjoy! :)
 	
