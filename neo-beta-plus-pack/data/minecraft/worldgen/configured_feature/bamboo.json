@@ -1,0 +1,38 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "probability": 0.0
+              },
+              "type": "minecraft:bamboo"
+            },
+            "decorator": {
+              "config": {},
+              "type": "minecraft:heightmap_world_surface"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {},
+          "type": "minecraft:square"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "count": 0,
+        "extra_chance": 0.025,
+        "extra_count": 20
+      },
+      "type": "minecraft:count_extra",
+      "name": "minecraft:count_extra"
+    }
+  },
+  "type": "minecraft:decorated"
+}

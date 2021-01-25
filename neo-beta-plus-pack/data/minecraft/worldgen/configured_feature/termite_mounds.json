@@ -1,0 +1,59 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "can_replace": true,
+            "project": true,
+            "need_water": false,
+            "xspread": 1,
+            "yspread": 6,
+            "zspread": 1,
+            "whitelist": [
+              {
+                "Name": "minecraft:coarse_dirt"
+              }
+            ],
+            "blacklist": [],
+            "tries": 128,
+            "state_provider": {
+              "state": {
+                "Name": "minecraft:coarse_dirt"
+              },
+              "type": "minecraft:simple_state_provider"
+            },
+            "block_placer": {
+              "type": "minecraft:simple_block_placer"
+            }
+          },
+          "type": "minecraft:random_patch"
+        },
+        "decorator": {
+          "config": {
+            "outer": {
+              "config": {},
+              "type": "minecraft:square"
+            },
+            "inner": {
+              "config": {},
+              "type": "minecraft:heightmap_spread_double"
+            }
+          },
+          "type": "minecraft:decorated"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "count": 10,
+        "extra_chance": 0.5,
+        "extra_count": 5
+      },
+      "type": "minecraft:count_extra",
+      "name": "minecraft:count_extra"
+    }
+  },
+  "type": "minecraft:decorated"
+}

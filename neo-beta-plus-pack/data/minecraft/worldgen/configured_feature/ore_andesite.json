@@ -1,0 +1,53 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "target": {
+                  "tag": "minecraft:base_stone_overworld",
+                  "predicate_type": "minecraft:tag_match"
+                },
+                "state": {
+                  "Name": "minecraft:andesite"
+                },
+                "size": 40
+              },
+              "type": "minecraft:ore",
+              "name": "minecraft:ore"
+            },
+            "decorator": {
+              "config": {
+                "bottom_offset": 0,
+                "top_offset": 0,
+                "maximum": 50
+              },
+              "type": "minecraft:range",
+              "name": "minecraft:range"
+            }
+          },
+          "type": "minecraft:decorated",
+          "name": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {},
+          "type": "minecraft:square",
+          "name": "minecraft:square"
+        }
+      },
+      "type": "minecraft:decorated",
+      "name": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "count": 10
+      },
+      "type": "minecraft:count",
+      "name": "minecraft:count"
+    }
+  },
+  "type": "minecraft:decorated",
+  "name": "minecraft:decorated"
+}

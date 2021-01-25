@@ -1,0 +1,55 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "target": {
+                  "block": "minecraft:grass_block",
+                  "predicate_type": "minecraft:block_match"
+                },
+                "state": {
+                  "Name": "minecraft:coarse_dirt"
+                },
+                "size": 64
+              },
+              "type": "minecraft:ore",
+              "name": "minecraft:ore"
+            },
+            "decorator": {
+              "config": {
+                "bottom_offset": 60,
+                "top_offset": 60,
+                "maximum": 128
+              },
+              "type": "minecraft:range",
+              "name": "minecraft:range"
+            }
+          },
+          "type": "minecraft:decorated",
+          "name": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {},
+          "type": "minecraft:square",
+          "name": "minecraft:square"
+        }
+      },
+      "type": "minecraft:decorated",
+      "name": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "count": 0,
+        "extra_chance": 0.25,
+        "extra_count": 1
+      },
+      "type": "minecraft:count_extra",
+      "name": "minecraft:count_extra"
+    }
+  },
+  "type": "minecraft:decorated",
+  "name": "minecraft:decorated"
+}
