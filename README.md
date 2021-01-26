@@ -6,7 +6,7 @@ For more accurate beta 1.7.3 terrain, check out the original Neo-Beta datapack (
 
 This page is for updates and bug reports. 
 
-For more info on this pack, check out the Planet Minecraft page (https://www.planetminecraft.com/data-pack/neo-beta-datapack-beta-1-7-3-esque-terrain-generation-for-your-1-16-2-worlds/)
+For more info on this pack, check out the Planet Minecraft page (https://www.planetminecraft.com/data-pack/neo-beta-plus-modernized-beta-1-7-3-styled-terrain-for-1-16/)
 
 # Updates
 V1.2.1 - 25/01/2021
